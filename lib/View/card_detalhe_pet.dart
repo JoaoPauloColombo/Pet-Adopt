@@ -105,10 +105,10 @@ class CardDetalhePet extends StatelessWidget {
                       height: 60,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          color: const Color.fromARGB(255, 255, 105, 180)), // Nova cor de fundo
+                          color: Colors.pink), // Nova cor de fundo
                       child: TextButton(
                         style: ButtonStyle(
-                          foregroundColor: MaterialStateProperty.all<Color>(
+                          foregroundColor: WidgetStatePropertyAll<Color>(
                               const Color.fromARGB(255, 255, 255, 255)), // Cor do texto do botão
                         ),
                         onPressed: () {
